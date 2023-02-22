@@ -1,0 +1,9 @@
+<?php
+session_start();
+ session_unset();
+ session_destroy();
+ unset($_SESSION['nome_utilizador']);
+ unset($_SESSION['id_utilizador']);
+unset($_SESSION['dep']);
+ header("location:../index.php")
+?>

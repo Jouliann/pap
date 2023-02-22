@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <title>OldCare</title>
+	<style>
+	  .navbar-nav {
+		width: 100%;
+		text-align: center;
+		> li {
+		float: none;
+		display: inline-block;
+		}
+		.map-container-6{
+		overflow:hidden;
+		padding-bottom:56.25%;
+		position:relative;
+		height:0;
+		}
+		.map-container-6 iframe{
+		left:0;
+		top:0;
+		height:100%;
+		width:100%;
+		position:absolute;
+		}
+		.image {
+		height: 200px;
+		}
+	</style>
+  </head>
+  <body>
+		 <nav class="navbar navbar-light navbar-expand-md bg-info justify-content-center fixed-top">
+		 <a class="navbar-brand" href="/PAPoriginal/index.php">
+          <img src="logo.png" alt="logo" style="width:60px;">
+        </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav w-100 justify-content-center">
+					  <li class="nav-item">
+						<a class="nav-link" href="" data-toggle="modal" data-target="#loginModal">Login</a>
+					  </li>
+			</ul>
+		  </div>
+		</nav>
+			<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+		  <div class="modal-body">
+			<form action="login/login1.php" method="POST">
+			  
+			  <div class="form-group">
+				<label for="nome" class="col-form-label">Nome de Utilizador:</label>
+				<input type="text" class="form-control" id="nomeutili" name="nomeutili">
+			  </div>
+			  
+  
+			   <div class="form-group">
+				<label for="cod_postal" class="col-form-label">Password:</label>
+				<input type="password" class="form-control" id="pass" name="pass">
+			  </div>
+		  
+
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+				<button type="submit" class="btn btn-primary">Login</button>
+
+        </form>
+      </div>
+		</div>
+		</div>
+	</div>	
+			<div class="modal-footer">
+			        
+				  </div>
+				</div>
+			  </div>
+			</div>
+			</div>
+		
+			<div class="container" style="margin-top:100px">
+				 <!--Section description-->
+			
+
+				  <div class="row">
+
+					<div class="col-lg-7">
+
+					  <!--Google map-->
+					  <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 700px">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11916.163353479002!2d-8.827592284017804!3d41.69805408717289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd25b632e13da42f%3A0xb296304dd61b1a2d!2sEscola+Secund%C3%A1ria+de+Santa+Maria+Maior!5e0!3m2!1spt-PT!2spt!4v1557379340189!5m2!1spt-PT!2spt"
+						width="1200" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
+					  <br>	
+					  <br>
+					  <!--Buttons-->
+					  <div class="row text-center">		
+						<div class="col-md-4">
+						  <a class="image" ><img src="world.png" class="rounded" width="70" height="70"></i></a>
+						  <p>Viana do Castelo, R. Manuel Fiúza Júnior 65</p>
+						  <p>Portugal</p>
+						</div>
+
+						<div class="col-md-4">
+						  <a class="image" ><img src="phone.png" class="rounded" width="70" height="70"></i></a>
+						  <p>96565623</p>
+						  <p>Seg - Sexta, 8:00-22:00</p>
+						</div>
+
+						<div class="col-md-4">
+						  <a class="image" ><img src="@.png" class="rounded" width="70" height="70"></i></a>
+						  <p>oldcare12@gmail.com</p>
+						</div>
+					  </div>
+					</div>
+					</div>
+					<!--Grid column-->
+
+				  </div>
+
+				</section>
+				<!--Section: Contact v.1-->
+	</div>
+	</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	
+
+		
+		
+</html>
